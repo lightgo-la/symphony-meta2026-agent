@@ -12,6 +12,13 @@ Build for Your World
 Bring Meta's models into your domain. Solve a problem you know firsthand, free up time and mental space, and make something possible that wasn't before.
 
 
+Milestone        Git Branch
+
+v0.1.0-alpha     main / feat / scaffold - D_27
+v0.5.0-beta      dev  / feat / test     - D_28
+v1.0.0-release   dev                    - D_29
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 Key Dates
