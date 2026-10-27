@@ -15,8 +15,10 @@ Bring Meta's models into your domain. Solve a problem you know firsthand, free u
 ##Milestone        Git Branch
 
 ##v0.1.0-alpha     main / feat / scaffold - D_27
+C_History muse code - model muse-spark-1.3 in token 276.9M / out 1.5M 
 
 ##v0.5.0-beta      dev  / feat / test     - D_28
+
 
 ##v1.0.0-release   dev                    - D_29
 
