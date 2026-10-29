@@ -21,6 +21,8 @@ C_History muse code - model muse-spark-1.3 in token 276.9M / out 1.5M
 C_History muse code - model muse-spark-1.3 in token 623.9M / out 3.5M 
 
 ##v1.0.0-release   dev                    - D_29
+C_History muse code - model muse-spark-1.3 in token 676.5M / out 3.9M 
+
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
