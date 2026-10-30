@@ -4,9 +4,8 @@
 
 ## 🎥 1. Demo & Visuals
 
-    ▶️ Watch the 2-min Demo Video (YouTube/Loom link)
+    ▶️ Watch the Demo Video 
 
-    📦 Download the Binary (GitHub Releases) (Runs instantly without building)
 
 (▲ 10 prompt nodes simultaneously invoking Meta Llama models and rendering real-time streaming results)
 ## 💡 2. Problem & Solution
