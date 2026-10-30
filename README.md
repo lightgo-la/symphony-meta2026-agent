@@ -20,6 +20,7 @@
     We built a native desktop application that batch-runs up to 10 prompt pipelines concurrently on a visual canvas—no coding required. By leveraging Rust's powerful asynchronous processing capabilities, it delivers instant responsiveness and a smooth UX without a heavy browser engine.
 
 ## ✨ 3. Key Features
+![Uploading 00. Multi-Prompting, Prompt Chaining.jpg…]()
 
     ⚡ 10x Parallel Prompt Orchestration: Simultaneously invoke and compare 10 different prompt/parameter combinations asynchronously with a single click, featuring real-time streaming.
 
