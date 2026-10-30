@@ -50,7 +50,7 @@
     > **📊 Cumulative AI Compute:** Over **676.5M Input Tokens** and **3.9M Output Tokens** processed across iterative
     development and refinement cycles.
     
-    > Project Submission: October 30th (Developed exclusively with Muse code
+    > Project Submission: November 1st (Developed exclusively with Muse code)
 
 
 <img width="994" height="780" alt="Symphony Canvas dev_muse-spark-1 3" src="https://github.com/user-attachments/assets/498bd9f9-5c86-42b1-8dde-6526901c880f" />
