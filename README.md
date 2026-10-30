@@ -1,15 +1,15 @@
-🚀 Native Multi-Prompt AI Canvas
+## 🚀 Native Multi-Prompt AI Canvas
 
     A lightweight Rust-native no-code canvas for running and comparing 10 AI prompts simultaneously without lag.
 
-🎥 1. Demo & Visuals
+## 🎥 1. Demo & Visuals
 
     ▶️ Watch the 2-min Demo Video (YouTube/Loom link)
 
     📦 Download the Binary (GitHub Releases) (Runs instantly without building)
 
 (▲ 10 prompt nodes simultaneously invoking Meta Llama models and rendering real-time streaming results)
-💡 2. Problem & Solution
+## 💡 2. Problem & Solution
 
     Problem:
 
@@ -19,7 +19,7 @@
 
     We built a native desktop application that batch-runs up to 10 prompt pipelines concurrently on a visual canvas—no coding required. By leveraging Rust's powerful asynchronous processing capabilities, it delivers instant responsiveness and a smooth UX without a heavy browser engine.
 
-✨ 3. Key Features
+## ✨ 3. Key Features
 
     ⚡ 10x Parallel Prompt Orchestration: Simultaneously invoke and compare 10 different prompt/parameter combinations asynchronously with a single click, featuring real-time streaming.
 
