@@ -2,12 +2,6 @@
 
 > **A Rust-native no-code canvas for running and comparing multiple AI prompts side by side**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Rust](https://img.shields.io/badge/Built%20with-Rust-dca282.svg)](https://www.rust-lang.org/)
-[![Meta Hackathon 2026](https://img.shields.io/badge/Meta%20Global%20AI%20Hackathon-2026-0668E1.svg)]()
-
----
-
 ## 🎬 1. Demo & Visuals
 
 * **[▶️ Watch the demo video (YouTube/Loom link)](TODO: add link)**
