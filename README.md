@@ -142,4 +142,4 @@ cargo run --profile fast   # 최적화 측정용 (릴리스급 최적화, LTO �
 
 ## 📄 9. 라이선스 (License)
 
-MIT — [LICENSE-MIT](LICENSE-MIT) 참조.
+MIT — [LICENSE](LICENSE) 참조.
