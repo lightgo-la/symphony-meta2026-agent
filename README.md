@@ -10,6 +10,7 @@
 
 (▲ 10 prompt nodes simultaneously invoking Meta Llama models and rendering real-time streaming results)
 ## 💡 2. Problem & Solution
+<img width="2369" height="1278" alt="Tailored Prompt Optimization Using Chain-of-Thought Reasoning" src="https://github.com/user-attachments/assets/3ea85b44-b671-4749-9177-44a46160c0ea" />
 
     Problem:
 
