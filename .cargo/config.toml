@@ -1,0 +1,11 @@
+# Building under a OneDrive-synced folder slows target/ I/O due to sync contention.
+# Keep sources in place, but redirect only the build output to a local disk outside OneDrive.
+# The first build is a slow full recompile; later builds are fast incrementals.
+# The old cache (in-project target/, ~3.3GB) can be deleted after the new path builds.
+[build]
+target-dir = "C:/_cargo-target/prompt_canvas_gui"
+
+[alias]
+c = "check --all-targets"
+t = "test --locked --bin prompt_canvas_gui"
+timings = "build --timings"
