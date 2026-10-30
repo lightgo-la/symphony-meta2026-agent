@@ -1,39 +1,37 @@
-# Native Multi-Prompt AI Canvas
+🚀 Native Multi-Prompt AI Canvas
 
-> **A Rust-native no-code canvas for running and comparing multiple AI prompts side by side**
+    A lightweight Rust-native no-code canvas for running and comparing 10 AI prompts simultaneously without lag.
 
-## 🎬 1. Demo & Visuals
+🎥 1. Demo & Visuals
 
-* **[▶️ Watch the demo video (YouTube/Loom link)](TODO: add link)**
-* **[Download the binary (GitHub Releases)](TODO: add link)** *(runs without building)*
+    ▶️ Watch the 2-min Demo Video (YouTube/Loom link)
 
-> TODO: record a demo GIF, save it as `assets/demo_preview.gif`, then uncomment the line below.
-> <!-- ![Working demo GIF](assets/demo_preview.gif) -->
-> *(Multiple prompt nodes calling the Meta Muse API and showing results side by side)*
+    📦 Download the Binary (GitHub Releases) (Runs instantly without building)
 
----
+(▲ 10 prompt nodes simultaneously invoking Meta Llama models and rendering real-time streaming results)
+💡 2. Problem & Solution
 
-## 🎯 2. Problem & Solution
+    Problem:
 
-* **Problem:**
-  When engineering prompts or testing agent workflows, editing prompts one at a time in a single chat window and comparing results is extremely inefficient. Web/Electron-based tools drag along a heavy browser engine, making them awkward for lightweight use.
-* **Solution:**
-  A native desktop app that **batch-runs multiple prompt pipelines** on a visual canvas — no coding required. The UI is a Rust + egui native GUI with all work offloaded to background threads, so the interface never freezes during runs.
+    When engineering prompts and testing agent workflows, editing prompts one by one in a single chat window and comparing results is extremely inefficient. Existing web or Electron-based multi-execution tools consume heavy system resources, leading to UI frame drops when multiple streams occur concurrently.
 
----
+    Solution:
 
-## ✨ 3. Key Features
+    We built a native desktop application that batch-runs up to 10 prompt pipelines concurrently on a visual canvas—no coding required. By leveraging Rust's powerful asynchronous processing capabilities, it delivers instant responsiveness and a smooth UX without a heavy browser engine.
 
-* **🗂️ No-code visual canvas:** drop node cards on the canvas and wire them up to build prompt chains. Unlimited CAD-style canvas, minimap, and grid auto-layout included.
-* **⚡ 3 batch run modes:** `Parallel` (start everything at once) / `Sequential` / `Chain` (topological order along input links) — run all ON nodes, selected nodes, or single nodes.
-* **🧰 23 run modes:** agent, image, audio, and Python execution plus 18 presets (summarize, translate, polish, …) alongside plain LLM calls.
-* **🤖 Agent + MCP tools:** agent-mode nodes work back and forth with MCP (stdio) server tools to produce answers. Tool results can be attached per node as context.
-* **✨ Blueprint generation:** describe a setup in one paragraph and get up to 12 nodes auto-designed and laid out (with link validation and cycle prevention).
-* **⏰ Scheduling + alarms:** start schedules (once/daily/interval) and per-node schedules, with completion alerts via Telegram, Discord, and WhatsApp.
-* **📤 Result sharing:** share via email, Facebook, Threads, and Instagram, or export as Markdown.
-* **🎨 34 themes + KO/EN UI:** 34 design themes that restyle accent, menus, results, and canvas at once; Korean/English UI switch.
-* **💾 Safe workspace:** undo/redo, 0.5s autosave, JSON save/open, and a Mock provider for keyless demos.
-* **🔒 Key security:** API keys are never written to disk by default (session keys live in memory only). Stored on this PC only when you opt in.
+✨ 3. Key Features
+
+    ⚡ 10x Parallel Prompt Orchestration: Simultaneously invoke and compare 10 different prompt/parameter combinations asynchronously with a single click, featuring real-time streaming.
+
+    🎨 No-Code Visual Canvas: An intuitive node-based UI designed to build complex prompt chaining and A/B testing effortlessly.
+
+    🦀 Ultra-Lightweight Native Performance: Implemented as a Rust-native GUI, minimizing memory footprint during idle and multi-run states while ensuring a zero-latency UI.
+
+    🦙 Seamless Meta AI Integration: Optimized prompt templates for Meta Llama series endpoints along with a real-time token/speed metrics dashboard.
+
+    🗂️ 3 Batch Execution Modes: Supports Parallel, Sequential, and Chain (topological order along input links) execution modes.
+
+    🤖 Agent & MCP Tool Integration: Equipped with agent nodes that interact with stdio-based MCP servers and automated blueprint generation.
 
 ---
 
