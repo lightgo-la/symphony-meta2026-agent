@@ -20,15 +20,12 @@
 
     Solution:
 
-     - **Zero-Lag Rust GUI:** Built entirely with Rust (`egui`/`eframe`) using multi-threaded OS background workers over `mpsc` channels—delivering a lightweight, responsive desktop UI that never freezes during
-    heavy concurrent inference.
+    - **Zero-Lag Rust GUI:** Built entirely with Rust (`egui`/`eframe`) using multi-threaded OS background workers over `mpsc` channels—delivering a lightweight, responsive desktop UI that never freezes during heavy concurrent inference.
     - **Topological Prompt Chaining:** Connect nodes intuitively with directed links. Downstream nodes automatically ingest upstream outputs with cycle prevention and topological ordering.
-    - **3 Batch Run Modes:** Execute workflows via `Parallel` (simultaneous runs), `Sequential`, or `Chain`
-    execution.
+    - **3 Batch Run Modes:** Execute workflows via `Parallel` (simultaneous runs), `Sequential`, or `Chain` execution.
     - **AI Blueprint Generator:** Transforms a single natural language description into an end-to-end multi-node canvas pipeline (up to 12 auto-wired and laid-out nodes).
     - **23 Run Modes & Agentic MCP:** Combines direct LLM calls with custom Python execution, media nodes, and MCP (Model Context Protocol stdio) autonomous agents capable of dynamic tool calling.
-    - **Real-World Notification Loop:** Native scheduling and automated completion alerts dispatched
-    directly to Telegram, Discord, and WhatsApp.
+    - **Real-World Notification Loop:** Native scheduling and automated completion alerts dispatched directly to Telegram, Discord, and WhatsApp.
     - **Privacy & Security First:** Session API keys are stored in volatile memory only by default, ensuring enterprise-grade credential security.
 
 ## ✨ 3. Key Features
