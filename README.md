@@ -1,6 +1,6 @@
 ## 🚀 Symphony Canvas_Native Multi-Prompt AI Canvas
 
-    A lightweight Rust-native no-code canvas for running and comparing 10 AI prompts simultaneously without lag.
+    A lightweight Rust-native no-code canvas for running and comparing AI prompts simultaneously without lag.
 
 ## 🎥 1. Demo & Visuals
 
