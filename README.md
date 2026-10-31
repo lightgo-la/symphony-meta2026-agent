@@ -49,7 +49,7 @@ Traditional single-window chat interfaces force developers and creators into rep
 
 ---
 
-🚀 5. Getting Started
+## 🚀 5. Getting Started
 Prerequisites
 
     Install the Rust toolchain: https://www.rust-lang.org/tools/install
@@ -76,7 +76,7 @@ API Configuration
 
     No API Key? No Problem: Select the Mock provider to explore the canvas, test topological chaining, and simulate multi-node execution offline.
 
-🖱️ 6. Usage & Node Modes
+## 🖱️ 6. Usage & Node Modes
 Canvas Controls
 
     ＋ Add node: Spawns a new prompt card on the canvas. Drag cards freely by their title bar.
