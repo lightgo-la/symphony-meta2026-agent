@@ -62,7 +62,7 @@ graph LR
 
 * Execution model: one OS thread per node, results collected over `mpsc` channels. No Tokio or SSE streaming — results arrive as completed outputs (agent progress lines do show live).
 * Chain mode wakes nodes in topological order once their inputs finish; cyclic links are blocked at creation.
-* LLM integration: Meta Muse API (`muse-spark-1.3`, OpenAI-compatible `chat/completions`) + a Mock provider that works offline.
+* LLM integration: Meta Muse API muse-spark-1.3 + a Mock provider that works offline.
 * Image generation: pollinations.ai; speech generation: Google Translate TTS (public HTTP).
 
 ---
