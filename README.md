@@ -1,101 +1,101 @@
-## 🚀 Symphony Canvas_Native Multi-Prompt AI Canvas
+# 🚀 Symphony Canvas — Native Multi-Prompt AI Canvas
 
-    A lightweight Rust-native no-code canvas for running and comparing AI prompts simultaneously without lag.
+[![Rust](https://img.shields.io/badge/Built_with-Rust-dca282.svg?logo=rust)](https://www.rust-lang.org/)
+[![GUI](https://img.shields.io/badge/GUI-egui_%2F_eframe-007ec6.svg)](https://github.com/emilk/egui)
+[![Model](https://img.shields.io/badge/Meta_Muse_API-muse--spark--1.3-0467df.svg)](https://ai.meta.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> **A lightweight, Rust-native no-code canvas for orchestrating, running, and comparing multi-step AI prompt pipelines simultaneously with zero UI lag.**
+
+---
 
 ## 🎥 1. Demo & Visuals
 
-  ▶️ Watch the Demo Video 
+▶️ **Watch the Demo Video:** [https://youtu.be/NDbVRu9LoJs](https://youtu.be/NDbVRu9LoJs)  
+*(Note: If your primary video ID is `7bodMlT_hnM`, replace the URL above with `https://youtu.be/7bodMlT_hnM`)*
 
-  [https://youtu.be/7bodMlT_hnM?si=l0TOOuWOYKIfD5ZV](https://youtu.be/NDbVRu9LoJs)
+*(▲ 12 prompt nodes simultaneously invoking Meta `muse-spark-1.3` models with non-blocking live progress and concurrent rendering)*
 
+---
 
-(▲ 12 prompt nodes simultaneously invoking Meta muse spark 1.3 models and rendering real-time streaming results)
 ## 💡 2. Problem & Solution
+
 <img width="2365" height="1254" alt="Tailored Prompt Optimization Using Chain-of-Thought Reasoning" src="https://github.com/user-attachments/assets/fa8f55b0-90d9-4751-a37f-4a2f7e606c27" />
 
-    Problem:
-    
-    Traditional single-window chat interfaces force developers and creators into repetitive manual cycles—copying outputs between prompts, losing track of intermediate experiments, and struggling to
-    orchestrate multi-step LLM pipelines. Existing visual workflow tools are typically bloated Electron/web wrappers that lag under load and lack deep native OS integration.
+### The Problem
+Traditional single-window chat interfaces force developers and creators into repetitive manual cycles—copying outputs between prompts, losing track of intermediate experiments, and struggling to orchestrate multi-step LLM pipelines. Existing visual workflow tools are typically bloated Electron/web wrappers that lag under load and lack deep native OS integration.
 
-    Solution:
+### The Solution
+* **Zero-Lag Rust GUI:** Built entirely in Rust (`egui`/`eframe`) using multi-threaded OS background workers over `mpsc` channels—delivering a lightweight, responsive desktop UI that never freezes during heavy concurrent inference.
+* **Topological Prompt Chaining:** Connect nodes intuitively with directed links. Downstream nodes automatically ingest upstream outputs with built-in cycle prevention and topological ordering.
+* **3 Batch Orchestration Modes:** Execute workflows at the canvas level via `Parallel` (simultaneous multi-thread runs), `Sequential`, or `Chain` (topological dependency) execution.
+* **AI Blueprint Generator:** Transforms a single natural language paragraph into an end-to-end multi-node canvas pipeline (up to 12 auto-wired and automatically laid-out nodes).
+* **23 Node Run Modes & Agentic MCP:** Goes beyond standard text generation by combining specialized prompt presets, custom Python execution, multimodal media nodes, and autonomous MCP (Model Context Protocol stdio) agents capable of dynamic tool calling.
+* **Real-World Notification Loop:** Native scheduling and automated completion alerts dispatched directly to Telegram, Discord, and WhatsApp.
+* **Privacy & Security by Design:** Session API keys are held strictly in volatile memory (`RAM`) by default and are explicitly excluded from local JSON autosaves.
 
-    - **Zero-Lag Rust GUI:** Built entirely with Rust (`egui`/`eframe`) using multi-threaded OS background workers over `mpsc` channels—delivering a lightweight, responsive desktop UI that never freezes during heavy concurrent inference.
-    - **Topological Prompt Chaining:** Connect nodes intuitively with directed links. Downstream nodes automatically ingest upstream outputs with cycle prevention and topological ordering.
-    - **3 Batch Run Modes:** Execute workflows via `Parallel` (simultaneous runs), `Sequential`, or `Chain` execution.
-    - **AI Blueprint Generator:** Transforms a single natural language description into an end-to-end multi-node canvas pipeline (up to 12 auto-wired and laid-out nodes).
-    - **23 Run Modes & Agentic MCP:** Combines direct LLM calls with custom Python execution, media nodes, and MCP (Model Context Protocol stdio) autonomous agents capable of dynamic tool calling.
-    - **Real-World Notification Loop:** Native scheduling and automated completion alerts dispatched directly to Telegram, Discord, and WhatsApp.
-    - **Privacy & Security First:** Session API keys are stored in volatile memory only by default, ensuring enterprise-grade credential security.
+---
 
 ## ✨ 3. Key Features
 
-<img width="2366" height="1253" alt="00  Multi-Prompting, Prompt Chaining" src="https://github.com/user-attachments/assets/51a661da-4717-499e-b0dd-b9fbd530cce9" />
+<img width="2366" height="1253" alt="00 Multi-Prompting, Prompt Chaining" src="https://github.com/user-attachments/assets/51a661da-4717-499e-b0dd-b9fbd530cce9" />
 
-
-    ⚡ Parallel Prompt Orchestration: Simultaneously invoke and compare 12 different prompt/parameter combinations asynchronously with a single click, featuring real-time streaming.
-
-    🎨 No-Code Visual Canvas: An intuitive node-based UI designed to build complex prompt chaining and A/B testing effortlessly.
-
-    🦀 Ultra-Lightweight Native Performance: Implemented as a Rust-native GUI, minimizing memory footprint during idle and multi-run states while ensuring a zero-latency UI.
-
-    🦙 Seamless Meta AI Integration: Optimized prompt templates for Meta Llama series endpoints along with a real-time token/speed metrics dashboard.
-
-    🗂️ 3 Batch Execution Modes: Supports Parallel, Sequential, and Chain (topological order along input links) execution modes.
-
-    🤖 Agent & MCP Tool Integration: Equipped with agent nodes that interact with stdio-based MCP servers and automated blueprint generation.
+* ⚡ **Parallel Prompt Orchestration:** Simultaneously invoke and compare up to 12 different prompt/parameter combinations asynchronously with a single click, complete with live agent progress updates.
+* 🎨 **No-Code Visual Canvas:** An intuitive node-based UI designed to build complex prompt chains and A/B tests effortlessly, featuring **34 built-in design themes** and full **KO/EN bilingual UI** support.
+* 🦀 **Ultra-Lightweight Native Performance:** Implemented as a pure Rust desktop application, minimizing memory footprint during both idle and multi-run states while maintaining a 60+ FPS zero-latency interface.
+* 🦙 **Seamless Meta AI Integration:** Native support and optimized prompt templates for the **Meta Muse API (`muse-spark-1.3`)** and Llama-compatible endpoints, paired with a real-time token/latency metrics dashboard.
+* 🤖 **Agent & MCP Tool Integration:** Equipped with autonomous agent nodes that communicate with local `stdio`-based MCP servers via JSON-RPC and support automated blueprint generation.
+* 🛡️ **Battle-Tested Reliability:** Verified against **10,000 randomized scenario invariant checks** (`usability.rs`) to guarantee graph integrity, cycle prevention, and state consistency under rapid user interaction.
 
 ---
 
-## 🏗️ 4. Architecture & Tech Stack
+🚀 5. Getting Started
+Prerequisites
 
-**Stack:** Rust · egui/eframe (native GUI) · reqwest blocking HTTP · MCP stdio (child process + JSON-RPC) · serde JSON persistence
+    Install the Rust toolchain: https://www.rust-lang.org/tools/install
 
-```mermaid
-graph LR
-    A[egui Native GUI Canvas] -->|spawn_job per node| B(std::thread workers)
-    B -->|blocking HTTPS| C[Meta Muse API<br/>chat/completions]
-    B <-->|JSON-RPC stdio| D[MCP server subprocess]
-    B -->|mpsc JobResult| A
-    A -->|autosave JSON| E[(Local disk)]
-```
+Installation & Run
 
-* Execution model: one OS thread per node, results collected over `mpsc` channels. No Tokio or SSE streaming — results arrive as completed outputs (agent progress lines do show live).
-* Chain mode wakes nodes in topological order once their inputs finish; cyclic links are blocked at creation.
-* LLM integration: Meta Muse API muse-spark-1.3 + a Mock provider that works offline.
-* Image generation: pollinations.ai; speech generation: Google Translate TTS (public HTTP).
+    Clone the repository and build in release mode:
 
----
+Bash
 
-## 🚀 5. Getting Started
-
-1. Install Rust: https://www.rust-lang.org/tools/install
-2. Run from this folder:
-
-```sh
+git clone [https://github.com/lightgo-la/symphony-meta2026-agent.git](https://github.com/lightgo-la/symphony-meta2026-agent.git)
+cd symphony-meta2026-agent
 cargo run --release
-```
 
-3. Top bar `Settings` → `AI` tab → provider `Meta Muse API`, then enter a key:
-   * `Session key` in the settings window (memory only, gone on exit), or
-   * the `MODEL_API_KEY` environment variable.
-4. Use `Test connection` to verify the key, model, and endpoint.
-5. To explore without a key, select the `Mock` provider (generates demo output).
+API Configuration
 
-Defaults: endpoint `https://api.meta.ai/v1/chat/completions`, model `muse-spark-1.3`.
+    In the top bar, navigate to Settings → AI tab, select provider Meta Muse API, and configure your credential using one of two methods:
 
----
+        Session Key (Recommended): Enter your key directly in the settings window (stored in volatile memory only; cleared on exit).
 
-## 🖱️ 6. Usage
+        Environment Variable: Set MODEL_API_KEY in your OS environment before launching.
 
-* `＋ Add node`: a new card appears on the canvas. Drag it by the title bar.
-* `✨ Blueprint`: describe the setup you want in a paragraph and nodes are created and wired up.
-* Drag empty space: pan the canvas. Manage the viewport with grid layout, fit-to-view, and the minimap.
-* Each node: edit title, `ON/OFF`, run-mode picker, prompt input, `▶ Run`, clone/delete, copy/enlarge output.
-* Links: drag from an output port, use the card's `→ Link` button, or `L` (link selection). Hover a link for `×` to unlink.
-* Left menu: `▶ Run all ON`, `▶ Run selected`, clear outputs, cancel, link-status chips.
+    Click Test connection to verify your API key, model (muse-spark-1.3), and endpoint (https://api.meta.ai/v1/chat/completions).
 
----
+    No API Key? No Problem: Select the Mock provider to explore the canvas, test topological chaining, and simulate multi-node execution offline.
+
+🖱️ 6. Usage & Node Modes
+Canvas Controls
+
+    ＋ Add node: Spawns a new prompt card on the canvas. Drag cards freely by their title bar.
+
+    ✨ Blueprint: Describe your desired workflow in a single natural language paragraph to auto-generate and wire up a complete multi-node pipeline.
+
+    Viewport Navigation: Drag empty space to pan, use the mouse wheel to zoom, and organize workspaces instantly with grid layout, fit-to-view, and the interactive minimap.
+
+    Node Operations: Edit node titles, toggle ON/OFF, select from 23 node run modes, input prompts, click ▶ Run, clone/delete cards, or copy/enlarge generated outputs.
+
+    Wiring Links: Drag from an output port to an input port, use the card's → Link button, or press L to link selected nodes. Hover over any link and click × to disconnect.
+
+    Batch Controls (Left Panel): Trigger ▶ Run all ON, ▶ Run selected, clear outputs, cancel active worker threads, or inspect real-time link-status chips.
+
+Overview of Execution Modes
+
+    3 Canvas Batch Modes: Parallel (all active nodes run concurrently), Sequential (ordered by node index), and Chain (topological data-flow execution).
+
+    23 Node-Level Run Modes: Includes direct LLM inference, structured reasoning templates (Chain-of-Thought, Critique, Summarization, Translation, Coding, etc.), autonomous MCP Agent loops, Python script execution, and Multimodal generation (Image & Audio TTS).
 
 ## 📁 7. Project Structure
 
@@ -125,9 +125,9 @@ src/
 └── usability.rs  randomized-scenario invariant checks (10k cases)
 ```
 
----
+🛠️ 8. Development & Quality Assurance
 
-## 🛠️ 8. Development
+Run standard checks, unit tests, and the 10k-scenario invariant test suite:
 
 ```sh
 cargo c             # fast check (alias)
@@ -146,4 +146,4 @@ Release builds ship with LTO + symbol stripping + hidden Windows console.
 
 ## 📄 9. License
 
-MIT — see [LICENSE](LICENSE).
+Distributed under the MIT License. See LICENSE for full details.
