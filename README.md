@@ -6,7 +6,7 @@
 
   ▶️ Watch the Demo Video 
 
-  https://youtu.be/7bodMlT_hnM?si=l0TOOuWOYKIfD5ZV
+  [https://youtu.be/7bodMlT_hnM?si=l0TOOuWOYKIfD5ZV](https://youtu.be/NDbVRu9LoJs)
 
 
 (▲ 12 prompt nodes simultaneously invoking Meta muse spark 1.3 models and rendering real-time streaming results)
