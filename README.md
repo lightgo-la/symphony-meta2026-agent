@@ -9,7 +9,7 @@
   https://youtu.be/7bodMlT_hnM?si=l0TOOuWOYKIfD5ZV
 
 
-(▲ 10 prompt nodes simultaneously invoking Meta muse spark 1.3 models and rendering real-time streaming results)
+(▲ 12 prompt nodes simultaneously invoking Meta muse spark 1.3 models and rendering real-time streaming results)
 ## 💡 2. Problem & Solution
 <img width="2365" height="1254" alt="Tailored Prompt Optimization Using Chain-of-Thought Reasoning" src="https://github.com/user-attachments/assets/fa8f55b0-90d9-4751-a37f-4a2f7e606c27" />
 
