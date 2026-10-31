@@ -4,7 +4,9 @@
 
 ## 🎥 1. Demo & Visuals
 
-    ▶️ Watch the Demo Video 
+  ▶️ Watch the Demo Video 
+
+  https://youtu.be/7bodMlT_hnM?si=l0TOOuWOYKIfD5ZV
 
 
 (▲ 10 prompt nodes simultaneously invoking Meta Llama models and rendering real-time streaming results)
