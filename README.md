@@ -14,12 +14,22 @@
 <img width="2365" height="1254" alt="Tailored Prompt Optimization Using Chain-of-Thought Reasoning" src="https://github.com/user-attachments/assets/fa8f55b0-90d9-4751-a37f-4a2f7e606c27" />
 
     Problem:
-
-    When engineering prompts and testing agent workflows, editing prompts one by one in a single chat window and comparing results is extremely inefficient. Existing web or Electron-based multi-execution tools consume heavy system resources, leading to UI frame drops when multiple streams occur concurrently.
+    
+    Traditional single-window chat interfaces force developers and creators into repetitive manual cycles—copying outputs between prompts, losing track of intermediate experiments, and struggling to
+    orchestrate multi-step LLM pipelines. Existing visual workflow tools are typically bloated Electron/web wrappers that lag under load and lack deep native OS integration.
 
     Solution:
 
-    We built a native desktop application that batch-runs up to 10 prompt pipelines concurrently on a visual canvas—no coding required. By leveraging Rust's powerful asynchronous processing capabilities, it delivers instant responsiveness and a smooth UX without a heavy browser engine.
+     - **Zero-Lag Rust GUI:** Built entirely with Rust (`egui`/`eframe`) using multi-threaded OS background workers over `mpsc` channels—delivering a lightweight, responsive desktop UI that never freezes during
+    heavy concurrent inference.
+    - **Topological Prompt Chaining:** Connect nodes intuitively with directed links. Downstream nodes automatically ingest upstream outputs with cycle prevention and topological ordering.
+    - **3 Batch Run Modes:** Execute workflows via `Parallel` (simultaneous runs), `Sequential`, or `Chain`
+    execution.
+    - **AI Blueprint Generator:** Transforms a single natural language description into an end-to-end multi-node canvas pipeline (up to 12 auto-wired and laid-out nodes).
+    - **23 Run Modes & Agentic MCP:** Combines direct LLM calls with custom Python execution, media nodes, and MCP (Model Context Protocol stdio) autonomous agents capable of dynamic tool calling.
+    - **Real-World Notification Loop:** Native scheduling and automated completion alerts dispatched
+    directly to Telegram, Discord, and WhatsApp.
+    - **Privacy & Security First:** Session API keys are stored in volatile memory only by default, ensuring enterprise-grade credential security.
 
 ## ✨ 3. Key Features
 
