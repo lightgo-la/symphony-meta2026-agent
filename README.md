@@ -33,7 +33,7 @@
 <img width="2366" height="1253" alt="00  Multi-Prompting, Prompt Chaining" src="https://github.com/user-attachments/assets/51a661da-4717-499e-b0dd-b9fbd530cce9" />
 
 
-    ⚡ Parallel Prompt Orchestration: Simultaneously invoke and compare 10 different prompt/parameter combinations asynchronously with a single click, featuring real-time streaming.
+    ⚡ Parallel Prompt Orchestration: Simultaneously invoke and compare 12 different prompt/parameter combinations asynchronously with a single click, featuring real-time streaming.
 
     🎨 No-Code Visual Canvas: An intuitive node-based UI designed to build complex prompt chaining and A/B testing effortlessly.
 
