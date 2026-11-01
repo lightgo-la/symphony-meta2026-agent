@@ -47,7 +47,19 @@ Traditional single-window chat interfaces force developers and creators into rep
 * 🛡️ **Battle-Tested Reliability:** Verified against **10,000 randomized scenario invariant checks** (`usability.rs`) to guarantee graph integrity, cycle prevention, and state consistency under rapid user interaction.
 
 ---
+## 🏗️ 4. Architecture & Security Design
 
+**Tech Stack:** `Rust` · `egui / eframe` (Native GUI) · `reqwest` (Blocking HTTPS in Worker Threads) · `MCP stdio` (Subprocess + JSON-RPC) · `serde` (JSON Persistence)
+
+```mermaid
+graph LR
+    A[egui Native GUI Canvas] -->|spawn_job per node| B(std::thread OS Workers)
+    B -->|Blocking HTTPS| C[Meta Muse API<br/>muse-spark-1.3]
+    B <-->|JSON-RPC stdio| D[MCP Server Subprocess]
+    B -->|mpsc JobResult & Live Logs| A
+    A -->|State Only - No API Keys| E[(Local Disk JSON)]
+
+---
 ## 🚀 5. Getting Started
 Prerequisites
 
