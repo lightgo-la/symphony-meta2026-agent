@@ -19,7 +19,7 @@
 
 ## 💡 2. Problem & Solution
 
-<img width="2365" height="1254" alt="Tailored Prompt Optimization Using Chain-of-Thought Reasoning" src="[https://github.com/user-attachments/assets/fa8f55b0-90d9-4751-a37f-4a2f7e606c27](https://github.com/user-attachments/assets/fa8f55b0-90d9-4751-a37f-4a2f7e606c27)" />
+![Tailored Prompt Optimization Using Chain-of-Thought Reasoning](https://github.com/user-attachments/assets/fa8f55b0-90d9-4751-a37f-4a2f7e606c27)
 
 ### The Problem
 Traditional single-window chat interfaces force developers and creators into repetitive manual cycles—copying outputs between prompts, losing track of intermediate experiments, and struggling to orchestrate multi-step LLM pipelines. Existing visual workflow tools are typically bloated Electron/web wrappers that lag under load and lack deep native OS integration.
@@ -37,7 +37,7 @@ Traditional single-window chat interfaces force developers and creators into rep
 
 ## ✨ 3. Key Features
 
-<img width="2366" height="1253" alt="00 Multi-Prompting, Prompt Chaining" src="[https://github.com/user-attachments/assets/51a661da-4717-499e-b0dd-b9fbd530cce9](https://github.com/user-attachments/assets/51a661da-4717-499e-b0dd-b9fbd530cce9)" />
+![00 Multi-Prompting, Prompt Chaining](https://github.com/user-attachments/assets/51a661da-4717-499e-b0dd-b9fbd530cce9)
 
 - ⚡ **Parallel Prompt Orchestration:** Simultaneously invoke and compare up to 12 different prompt/parameter combinations asynchronously with a single click, complete with live agent progress updates.
 - 🎨 **No-Code Visual Canvas:** An intuitive node-based UI designed to build complex prompt chains and A/B tests effortlessly, featuring **34 built-in design themes** and full **KO/EN bilingual UI** support.
