@@ -12,7 +12,6 @@
 ## 🎥 1. Demo & Visuals
 
 ▶️ **Watch the Demo Video:** [https://youtu.be/NDbVRu9LoJs](https://youtu.be/NDbVRu9LoJs)  
-*(Note: If your primary video ID is `7bodMlT_hnM`, replace the URL above with `https://youtu.be/7bodMlT_hnM`)*
 
 *(▲ 12 prompt nodes simultaneously invoking Meta `muse-spark-1.3` models with non-blocking live progress and concurrent rendering)*
 
