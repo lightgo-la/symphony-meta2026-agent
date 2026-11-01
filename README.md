@@ -60,6 +60,7 @@ graph LR
     A -->|State Only - No API Keys| E[(Local Disk JSON)]
 
 ---
+
 ## 🚀 5. Getting Started
 Prerequisites
 
@@ -86,6 +87,8 @@ API Configuration
     Click Test connection to verify your API key, model (muse-spark-1.3), and endpoint (https://api.meta.ai/v1/chat/completions).
 
     No API Key? No Problem: Select the Mock provider to explore the canvas, test topological chaining, and simulate multi-node execution offline.
+
+---
 
 ## 🖱️ 6. Usage & Node Modes
 Canvas Controls
